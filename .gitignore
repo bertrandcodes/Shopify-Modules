@@ -14,6 +14,11 @@ deploy.log
 config/shopify.yml
 npm-debug.log
 .env
+.env.start
+.env.finish
+.env.production
+.env.staging
+.env.testing
 !.stylelint-config/stylelint-scss/node_modules
 !.stylelint-config/stylelint-order/node_modules
 
