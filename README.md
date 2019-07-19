@@ -2,6 +2,10 @@
 
 ## Basic References
 
+- [Liquid Reference](https://help.shopify.com/en/themes/liquid)
+- [Liquid Cheatsheet](https://www.shopify.com/partners/shopify-cheat-sheet)
+- [Shopify Templates](https://help.shopify.com/en/themes/development/templates)
+- [Shopify Liquid Objects](https://help.shopify.com/en/themes/liquid/objects)
 - [Slate Docs](https://shopify.github.io/slate/docs/about)
 - [Design](https://invis.io/UESZF1LWHMS)
 
