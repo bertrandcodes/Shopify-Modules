@@ -38,14 +38,14 @@
   <script>
     document.documentElement.className = document.documentElement.className.replace('no-js', '');
 
-    window.theme = {
-      strings: {
-        addToCart: {{ 'products.product.add_to_cart' | t | json }},
-    soldOut: { { 'products.product.sold_out' | t | json } },
-    unavailable: { { 'products.product.unavailable' | t | json } }
-      },
-    moneyFormat: { { shop.money_format | json } }
-    };
+    // window.theme = {
+    //   strings: {
+    //     addToCart: {{ 'products.product.add_to_cart' | t | json }},
+    // soldOut: { { 'products.product.sold_out' | t | json } },
+    // unavailable: { { 'products.product.unavailable' | t | json } }
+    //   },
+    // moneyFormat: { { shop.money_format | json } }
+    // };
   </script>
 
   {% include 'script-tags', layout: 'theme' %}
@@ -60,6 +60,7 @@
     href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
 
   {% section 'header' %}
+  {% render 'icon-instagram' %}
 
   <main role="main" id="MainContent">
     {{ content_for_layout }}
