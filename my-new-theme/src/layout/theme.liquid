@@ -54,12 +54,12 @@
 </head>
 
 <body id="{{ page_title | handle }}" class="template-{{ template.name | handle }}">
-  <h1>Shopify Modules</h1>
+  {% section 'header' %}
+  <h1>Bert's Terts</h1>
 
   <a class="in-page-link visually-hidden skip-link"
     href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
 
-  {% section 'header' %}
   {% render 'icon-instagram' %}
 
   <main role="main" id="MainContent">

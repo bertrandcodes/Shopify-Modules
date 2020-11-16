@@ -4,3 +4,25 @@
  * Import additional stylesheets into this sheet using CSS imports:
  * @import url('./global/form.scss');
  */
+
+ body {
+     background-color: beige;
+ }
+
+ .announce {
+     background-color: yellow;
+ }
+
+ @mixin flex {
+     display: flex;
+     background-color: brown;
+ }
+
+ .banban > * {
+     @include flex
+ }
+
+ .banban {
+     @include flex;
+     background-color: blue;
+}

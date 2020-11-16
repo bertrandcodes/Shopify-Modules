@@ -10,8 +10,8 @@ Theme Store required settings
 Theme Store optional settings
 - Home page only: only shows on the home page
 {%- endcomment -%}
-<section data-section-id="{{ section.id }}" data-section-type="header">
-  
+<section data-section-id="{{ section.id }}" class="banban" data-section-type="header">
+
   {%- if section.settings.announcement_bar_enabled -%}
   <div>
     {%- if section.settings.announcement_bar_home_page_only == false or template.name == 'index' -%}
@@ -20,6 +20,7 @@ Theme Store optional settings
       {{ section.settings.announcement_bar_text | escape }}
     </a>
     {%- else -%}
+    <p class="announce">yoooooo announcement</p>
     <p>{{ section.settings.announcement_bar_text | escape }}</p>
     {%- endif -%}
     {%- endif -%}
